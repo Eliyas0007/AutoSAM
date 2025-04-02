@@ -49,7 +49,7 @@ You can check path```dummy_video_dataset/``` to prepare a dataset with similar s
 - in each folder stores the frames of this video either as ```.png``` or ```.jpg/.jpej```
 
 ## Acknowledgements
-The demo dataset we used in this repository is [flat'n'fold dataaset](https://arxiv.org/abs/2409.18297)
+The demo dataset we used in this repository is [flat'n'fold dataset](https://arxiv.org/abs/2409.18297)
 
 
 
