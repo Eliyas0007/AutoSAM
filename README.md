@@ -48,5 +48,8 @@ You can check path```dummy_video_dataset/``` to prepare a dataset with similar s
 - Then each video is stored as a folder inside the root dir
 - in each folder stores the frames of this video either as ```.png``` or ```.jpg/.jpej```
 
+## Acknowledgements
+The demo dataset we used in this repository is [flat'n'fold dataaset](https://arxiv.org/abs/2409.18297)
+
 
 
