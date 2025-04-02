@@ -39,7 +39,7 @@ bash checkpoints/download_checkpoints.sh
 ## How to run
 You can check for each of the arguments and how to use them in```scripts/segment_videos.py```from main function. Each argument has already set to a default value but you still need to change them according to your needs. Then you can run a demo segmentation of a video with command in a terminal as follows:
 ```
-python scripts/segment_videos.py --detect_first_frame_only true --is_demo
+python scripts/segment_videos.py --detect_first_frame_only --is_demo
 ```
 
 ## Data
