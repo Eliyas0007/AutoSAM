@@ -26,7 +26,7 @@ Download the checkpoints for SAM2:
 cd chackpoints
 bash download_ckpts.sh
 ```
-Now you have successfully install SAM2, if you have any issues please refer to the original instruction [here](https://github.com/facebookresearch/sam2) Then return to the home directory with:
+Now you have successfully installed SAM2, if you have any issues please refer to the original instruction [here](https://github.com/facebookresearch/sam2) Then return to the home directory with:
 ```
 cd ../../
 ```
@@ -46,7 +46,7 @@ python scripts/segment_videos.py --detect_first_frame_only --is_demo
 You can check path```dummy_video_dataset/``` to prepare a dataset with similar structure.
 - First a root directory for your dataset
 - Then each video is stored as a folder inside the root dir
-- in each folder stores the frames of this video either as ```.png``` or ```.jpg/.jpej```
+- Each folder stores the frames of this video either as ```.png``` or ```.jpg/.jpej```
 
 ## Acknowledgements
 The demo dataset we used in this repository is [flat'n'fold dataset](https://arxiv.org/abs/2409.18297)
