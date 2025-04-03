@@ -5,17 +5,16 @@ Automated [SAM2](https://github.com/facebookresearch/sam2) segmentation and trac
 This repo uses YOLOv11 as an prompt generator to let sam2 work on these prompts (bounding boxes of objects) to segment and track objects in videos. We will integrate CLIP to support text prompts in the future.
 
 ## Setup
-Install the requiered packages and create new virtual environment using conda:
-```
-conda env create -f environment.yml
-conda activate SAM2
-```
 Download the repo:
 ```
 git clone https://github.com/Eliyas0007/AutoSAM.git
 cd AutoSAM
 ```
-
+Install the requiered packages and create new virtual environment using conda:
+```
+conda env create -f environment.yml
+conda activate SAM2
+```
 Install SAM2 with following:
 ```
 cd sam2
