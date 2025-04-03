@@ -1,5 +1,5 @@
 # AutoSAM2
-Automated [SAM2](https://github.com/facebookresearch/sam2) segmentation and tracking
+Automated [SAM2](https://github.com/facebookresearch/sam2) segmentation and tracking primarily for videos
 
 ## Overview
 This repo uses YOLOv11 as an prompt generator to let sam2 work on these prompts (bounding boxes of objects) to segment and track objects in videos. We will integrate CLIP to support text prompts in the future.
