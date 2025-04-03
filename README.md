@@ -20,21 +20,14 @@ Install SAM2 with following:
 ```
 cd sam2
 pip install -e .
+cd ..
 ```
-Download the checkpoints for SAM2:
+Download the checkpoints for SAM2 and YOLOv11:
 ```
 cd chackpoints
 bash download_ckpts.sh
 ```
-Now you have successfully installed SAM2, if you have any issues please refer to the original instruction [here](https://github.com/facebookresearch/sam2) Then return to the home directory with:
-```
-cd ../../
-```
-
-Download the YOLOv11 checkpoints from [Ultralaytics](https://github.com/ultralytics/ultralytics) or use the download script as:
-```
-bash checkpoints/download_checkpoints.sh
-```
+Now you have successfully installed SAM2 and YOLOv11, if you have any issues please refer to the original instruction [here for SAM2](https://github.com/facebookresearch/sam2) and [here for YOLOv11](https://github.com/ultralytics/ultralytics)
 
 ## How to run
 You can check for each of the arguments and how to use them in```scripts/segment_videos.py```from main function. Each argument has already set to a default value but you still need to change them according to your needs. Then you can run a demo segmentation of a video with command in a terminal as follows:

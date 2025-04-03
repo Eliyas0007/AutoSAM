@@ -1,5 +1,11 @@
 #!/bin/bash
 
+echo "Downloading SAM2 checkpoints..."
+cd ./../sam2/checkpoints
+bash download_ckpts.sh
+cd ../..
+echo "Downloading YOLOv8.3 checkpoints..."
+
 # Define checkpoint URLs
 CHECKPOINTS=(
   "https://github.com/ultralytics/assets/releases/download/v8.3.0/yolo11n-seg.pt"
@@ -22,4 +28,4 @@ for URL in "${CHECKPOINTS[@]}"; do
   wget -q --show-progress -P "$DEST_DIR" "$URL"
 done
 
-echo "Download complete! Checkpoints saved in $DEST_DIR."
+echo "Download complete!"
