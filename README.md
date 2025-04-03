@@ -33,12 +33,14 @@ You can check for each of the arguments and how to use them in```scripts/segment
 ```
 python scripts/segment_videos.py --detect_first_frame_only --is_demo
 ```
-
 ## Data
 You can check path```dummy_video_dataset/``` to prepare a dataset with similar structure.
 - First a root directory for your dataset
 - Then each video is stored as a folder inside the root dir
 - Each folder stores the frames of this video either as ```.png``` or ```.jpg```/```.jpej```
+
+## TODO
+Integrate CLIP to provide alternative segmentation method which has dynamic object detection
 
 ## Acknowledgements
 The demo dataset we used in this repository is [flat'n'fold dataset](https://arxiv.org/abs/2409.18297)
