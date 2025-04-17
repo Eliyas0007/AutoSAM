@@ -111,7 +111,7 @@ your_dataset_root/
 ```
 
 - `object1/`, `object2/`, etc. represent individual segmented objects.
-- `background/` optionally contains frames with the segmented objects removed or masked out.
+- `background/` contains frames with the segmented objects removed or masked out.
 - This structure makes it easy to analyze or visualize each object separately from the background.
 - You can use the segmented videos as a dataset to train [SCAT](https://github.com/Eliyas0007/SCAT)
 
